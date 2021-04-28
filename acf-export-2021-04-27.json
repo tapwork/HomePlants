@@ -1,0 +1,265 @@
+[
+    {
+        "key": "group_6059e9d0f0f26",
+        "title": "Plants",
+        "fields": [
+            {
+                "key": "field_6059e9dff403a",
+                "label": "Name",
+                "name": "name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6063573309a42",
+                "label": "Gießen",
+                "name": "rhythmFlower",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "never": "Nie",
+                    "daily": "Täglich",
+                    "weekly": "Wöchentlich",
+                    "biweekly": "Alle 2 Wochen",
+                    "monthly": "Monatlich"
+                },
+                "default_value": "weekly",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_606358db62192",
+                "label": "Befeuchten",
+                "name": "rhythmMoisturize",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "never": "Nie",
+                    "daily": "Täglich",
+                    "weekly": "Wöchentlich",
+                    "biweekly": "Alle 2 Wochen",
+                    "monthly": "Monatlich"
+                },
+                "default_value": "never",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_6063594262193",
+                "label": "Düngen",
+                "name": "fertilize",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "never": "Nie",
+                    "daily": "Täglich",
+                    "weekly": "Wöchentlich",
+                    "biweekly": "Alle 2 Wochen",
+                    "monthly": "Monatlich"
+                },
+                "default_value": "never",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_6063597162194",
+                "label": "Standort",
+                "name": "location",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "sz_ug": "Schlafzimmer EG",
+                    "bad_ug": "Bad EG",
+                    "bad_og": "Bad OG",
+                    "bad_guest": "Bad Gäste WC",
+                    "ankleide": "Ankleide",
+                    "flur_ug": "Flur EG",
+                    "flur_og": "Flur OG",
+                    "guest_ug": "Gästezimmer EG",
+                    "guest_og": "Gästezimmer OG",
+                    "living": "Wohnzimmer",
+                    "wardrobe": "Garderobe",
+                    "garden_back": "Garten hinten",
+                    "garden_front": "Garten vorn",
+                    "driveway": "Einfahrt"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_60635a8062195",
+                "label": "Bild",
+                "name": "image",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": 100,
+                "mime_types": ""
+            },
+            {
+                "key": "field_60635ab862196",
+                "label": "Kommentar",
+                "name": "comment",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_606c207c7f1f7",
+                "label": "Gießen History",
+                "name": "flowerHistory",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "0",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_606c20c07f1f8",
+                "label": "Befeuchten History",
+                "name": "moisturizehistory",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "0",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_606c216fb4773",
+                "label": "Düngen History",
+                "name": "fertilizeHistory",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "0",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

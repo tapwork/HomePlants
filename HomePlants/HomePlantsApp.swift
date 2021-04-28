@@ -1,17 +1,19 @@
-//
-//  HomePlantsApp.swift
-//  HomePlants
-//
-//  Created by Christian Menschel on 30.03.21.
-//
-
 import SwiftUI
 
 @main
 struct HomePlantsApp: App {
+
+    init() {
+        setup()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
+    }
+
+    func setup() {
+        Logger.shared = Logger(level: .warning)
     }
 }

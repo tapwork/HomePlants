@@ -7,19 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72065B91261EE0B000980345 /* PlantMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 72065B90261EE0B000980345 /* PlantMock.json */; };
+		72415B1A26150B8700C1A763 /* RootStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72415B1926150B8700C1A763 /* RootStore.swift */; };
+		72415B1E26150F9800C1A763 /* PlantHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72415B1D26150F9800C1A763 /* PlantHistoryView.swift */; };
+		72427B892614666B00D4C230 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72427B882614666B00D4C230 /* PlantDetailView.swift */; };
+		72427B8D261467E300D4C230 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72427B8C261467E300D4C230 /* NetworkImage.swift */; };
+		729427002613BD1700C7F9BE /* PlantRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729426FF2613BD1700C7F9BE /* PlantRoomListView.swift */; };
+		72966628261C97D6001E0EFA /* MainAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72966627261C97D6001E0EFA /* MainAPIClient.swift */; };
+		7296662C261C9809001E0EFA /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296662B261C9809001E0EFA /* Request.swift */; };
+		7296662F261C9847001E0EFA /* URL+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7296662E261C9847001E0EFA /* URL+Extras.swift */; };
+		72966632261C994A001E0EFA /* Codable+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72966631261C994A001E0EFA /* Codable+Helper.swift */; };
+		72966635261C9AD0001E0EFA /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72966634261C9AD0001E0EFA /* KeychainService.swift */; };
+		72966638261C9EE2001E0EFA /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72966637261C9EE2001E0EFA /* Token.swift */; };
+		72B30EC6261CA6840051306E /* UpdateRhythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B30EC5261CA6840051306E /* UpdateRhythm.swift */; };
+		72B30ECA261CA7A20051306E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B30EC9261CA7A20051306E /* LoginView.swift */; };
+		72B30ECD261CB09C0051306E /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B30ECC261CB09C0051306E /* LoginStore.swift */; };
+		72B816802638641D00D09A1E /* PlantListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B8167F2638641D00D09A1E /* PlantListViewCell.swift */; };
+		72C134A22614FE2300100A6E /* FileManager+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C134A12614FE2300100A6E /* FileManager+JSON.swift */; };
+		72C134A52614FE5C00100A6E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C134A42614FE5C00100A6E /* Logger.swift */; };
 		72F1A5DE26139553001362CF /* HomePlantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5DD26139553001362CF /* HomePlantsApp.swift */; };
-		72F1A5E026139553001362CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5DF26139553001362CF /* ContentView.swift */; };
+		72F1A5E026139553001362CF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5DF26139553001362CF /* RootView.swift */; };
 		72F1A5E226139553001362CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F1A5E126139553001362CF /* Assets.xcassets */; };
 		72F1A5E526139553001362CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F1A5E426139553001362CF /* Preview Assets.xcassets */; };
+		72F1A5EF26139583001362CF /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5EE26139583001362CF /* PlantListView.swift */; };
+		72F1A5F326139599001362CF /* PlantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5F226139599001362CF /* PlantStore.swift */; };
+		72F1A5F7261395C0001362CF /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F1A5F6261395C0001362CF /* Plant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72065B90261EE0B000980345 /* PlantMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlantMock.json; sourceTree = "<group>"; };
+		72415B1926150B8700C1A763 /* RootStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootStore.swift; sourceTree = "<group>"; };
+		72415B1D26150F9800C1A763 /* PlantHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantHistoryView.swift; sourceTree = "<group>"; };
+		72427B882614666B00D4C230 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		72427B8C261467E300D4C230 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		729426FF2613BD1700C7F9BE /* PlantRoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRoomListView.swift; sourceTree = "<group>"; };
+		72966627261C97D6001E0EFA /* MainAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPIClient.swift; sourceTree = "<group>"; };
+		7296662B261C9809001E0EFA /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7296662E261C9847001E0EFA /* URL+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extras.swift"; sourceTree = "<group>"; };
+		72966631261C994A001E0EFA /* Codable+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Helper.swift"; sourceTree = "<group>"; };
+		72966634261C9AD0001E0EFA /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		72966637261C9EE2001E0EFA /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		72B30EC5261CA6840051306E /* UpdateRhythm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRhythm.swift; sourceTree = "<group>"; };
+		72B30EC9261CA7A20051306E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		72B30ECC261CB09C0051306E /* LoginStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
+		72B8167F2638641D00D09A1E /* PlantListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewCell.swift; sourceTree = "<group>"; };
+		72C134A12614FE2300100A6E /* FileManager+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+JSON.swift"; sourceTree = "<group>"; };
+		72C134A42614FE5C00100A6E /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		72F1A5DA26139553001362CF /* HomePlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePlants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F1A5DD26139553001362CF /* HomePlantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlantsApp.swift; sourceTree = "<group>"; };
-		72F1A5DF26139553001362CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72F1A5DF26139553001362CF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		72F1A5E126139553001362CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72F1A5E426139553001362CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72F1A5E626139553001362CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F1A5EE26139583001362CF /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		72F1A5F226139599001362CF /* PlantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStore.swift; sourceTree = "<group>"; };
+		72F1A5F6261395C0001362CF /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +75,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72427B902614682600D4C230 /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				72B8167E263863EE00D09A1E /* Store */,
+				72427B922614683D00D4C230 /* Views */,
+				72427B912614683100D4C230 /* Models */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		72427B912614683100D4C230 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72F1A5F6261395C0001362CF /* Plant.swift */,
+				72065B90261EE0B000980345 /* PlantMock.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72427B922614683D00D4C230 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				729426FF2613BD1700C7F9BE /* PlantRoomListView.swift */,
+				72F1A5EE26139583001362CF /* PlantListView.swift */,
+				72B8167F2638641D00D09A1E /* PlantListViewCell.swift */,
+				72427B882614666B00D4C230 /* PlantDetailView.swift */,
+				72415B1D26150F9800C1A763 /* PlantHistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72427B932614684A00D4C230 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				72C134A12614FE2300100A6E /* FileManager+JSON.swift */,
+				72C134A42614FE5C00100A6E /* Logger.swift */,
+				72966631261C994A001E0EFA /* Codable+Helper.swift */,
+				72966634261C9AD0001E0EFA /* KeychainService.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		7296662A261C97F6001E0EFA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				72B30EC4261CA66E0051306E /* Model */,
+				72427B8C261467E300D4C230 /* NetworkImage.swift */,
+				72966627261C97D6001E0EFA /* MainAPIClient.swift */,
+				7296662E261C9847001E0EFA /* URL+Extras.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		72B30EC4261CA66E0051306E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7296662B261C9809001E0EFA /* Request.swift */,
+				72966637261C9EE2001E0EFA /* Token.swift */,
+				72B30EC5261CA6840051306E /* UpdateRhythm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72B30EC8261CA7980051306E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				72B30EC9261CA7A20051306E /* LoginView.swift */,
+				72B30ECC261CB09C0051306E /* LoginStore.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		72B8167E263863EE00D09A1E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				72F1A5F226139599001362CF /* PlantStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		72F1A5D126139553001362CF = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +174,13 @@
 		72F1A5DC26139553001362CF /* HomePlants */ = {
 			isa = PBXGroup;
 			children = (
+				7296662A261C97F6001E0EFA /* API */,
+				72B30EC8261CA7980051306E /* Login */,
+				72427B932614684A00D4C230 /* Extras */,
+				72427B902614682600D4C230 /* Plants */,
 				72F1A5DD26139553001362CF /* HomePlantsApp.swift */,
-				72F1A5DF26139553001362CF /* ContentView.swift */,
+				72F1A5DF26139553001362CF /* RootView.swift */,
+				72415B1926150B8700C1A763 /* RootStore.swift */,
 				72F1A5E126139553001362CF /* Assets.xcassets */,
 				72F1A5E626139553001362CF /* Info.plist */,
 				72F1A5E326139553001362CF /* Preview Content */,
@@ -85,6 +212,8 @@
 			dependencies = (
 			);
 			name = HomePlants;
+			packageProductDependencies = (
+			);
 			productName = HomePlants;
 			productReference = 72F1A5DA26139553001362CF /* HomePlants.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +241,8 @@
 				Base,
 			);
 			mainGroup = 72F1A5D126139553001362CF;
+			packageReferences = (
+			);
 			productRefGroup = 72F1A5DB26139553001362CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72065B91261EE0B000980345 /* PlantMock.json in Resources */,
 				72F1A5E526139553001362CF /* Preview Assets.xcassets in Resources */,
 				72F1A5E226139553001362CF /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +270,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F1A5E026139553001362CF /* ContentView.swift in Sources */,
+				72F1A5E026139553001362CF /* RootView.swift in Sources */,
 				72F1A5DE26139553001362CF /* HomePlantsApp.swift in Sources */,
+				72966635261C9AD0001E0EFA /* KeychainService.swift in Sources */,
+				72415B1E26150F9800C1A763 /* PlantHistoryView.swift in Sources */,
+				72B30EC6261CA6840051306E /* UpdateRhythm.swift in Sources */,
+				72415B1A26150B8700C1A763 /* RootStore.swift in Sources */,
+				72B816802638641D00D09A1E /* PlantListViewCell.swift in Sources */,
+				72966632261C994A001E0EFA /* Codable+Helper.swift in Sources */,
+				72F1A5F7261395C0001362CF /* Plant.swift in Sources */,
+				729427002613BD1700C7F9BE /* PlantRoomListView.swift in Sources */,
+				72F1A5F326139599001362CF /* PlantStore.swift in Sources */,
+				72966638261C9EE2001E0EFA /* Token.swift in Sources */,
+				72C134A52614FE5C00100A6E /* Logger.swift in Sources */,
+				7296662F261C9847001E0EFA /* URL+Extras.swift in Sources */,
+				72427B892614666B00D4C230 /* PlantDetailView.swift in Sources */,
+				72B30ECD261CB09C0051306E /* LoginStore.swift in Sources */,
+				72F1A5EF26139583001362CF /* PlantListView.swift in Sources */,
+				72966628261C97D6001E0EFA /* MainAPIClient.swift in Sources */,
+				7296662C261C9809001E0EFA /* Request.swift in Sources */,
+				72C134A22614FE2300100A6E /* FileManager+JSON.swift in Sources */,
+				72B30ECA261CA7A20051306E /* LoginView.swift in Sources */,
+				72427B8D261467E300D4C230 /* NetworkImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +419,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_ASSET_PATHS = "\"HomePlants/Preview Content\"";
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_PREVIEWS = YES;
@@ -277,8 +431,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.tapwork.homeplants.HomePlants;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tapwork.homeplants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "HomePlants AppStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,7 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_ASSET_PATHS = "\"HomePlants/Preview Content\"";
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_PREVIEWS = YES;
@@ -299,8 +456,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.tapwork.homeplants.HomePlants;
+				PRODUCT_BUNDLE_IDENTIFIER = de.tapwork.homeplants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "HomePlants AppStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
