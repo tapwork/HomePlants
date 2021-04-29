@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INEnums</key>
+	<array/>
+	<key>INIntentDefinitionModelVersion</key>
+	<string>1.2</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>LX95bH</string>
+	<key>INIntentDefinitionSystemVersion</key>
+	<string>20E232</string>
+	<key>INIntentDefinitionToolsBuildVersion</key>
+	<string>12D4e</string>
+	<key>INIntentDefinitionToolsVersion</key>
+	<string>12.4</string>
+	<key>INIntents</key>
+	<array>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>information</string>
+			<key>INIntentDescription</key>
+			<string>Show lemon tree</string>
+			<key>INIntentDescriptionID</key>
+			<string>7Vvwhz</string>
+			<key>INIntentIneligibleForSuggestions</key>
+			<true/>
+			<key>INIntentLastParameterTag</key>
+			<integer>2</integer>
+			<key>INIntentName</key>
+			<string>GetPlants</string>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Today you have to plant: ${plants}</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>AW8UWv</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Today you have to plant: ${plants}</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>DbEYAo</string>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Error occured</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>t26Q8O</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Error occured</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>kyLaep</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>4</integer>
+				<key>INIntentResponseOutput</key>
+				<string>plants</string>
+				<key>INIntentResponseParameters</key>
+				<array>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Plants</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>KNFIOh</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>plants</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>4</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Show lemon tree</string>
+			<key>INIntentTitleID</key>
+			<string>sw3KD7</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>View</string>
+		</dict>
+	</array>
+	<key>INTypes</key>
+	<array/>
+</dict>
+</plist>

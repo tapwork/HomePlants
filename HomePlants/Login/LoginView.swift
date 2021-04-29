@@ -2,8 +2,8 @@ import SwiftUI
 import Combine
 
 struct LoginView: View {
-    @State var username = ""
-    @State var password = ""
+    @State var username = "Vicky"
+    @State var password = "qxEzNoD(ErXYRJDvS$ts*^ba"
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var store: LoginStore
 
