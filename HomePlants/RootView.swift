@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct RootView: View {
-    @StateObject var rootStore = RootStore()
+    @StateObject var rootStore = RootStore(environment: .live)
     @State private var showingSheet = false
 
     var body: some View {
@@ -27,6 +27,9 @@ struct RootView: View {
         .onAppear {
             rootStore.load()
         }
+        .onContinueUserActivity("PlantIntentionIntent", perform: { userActivity in
+            print(userActivity.interaction?.intent)
+        })
     }
 }
 
